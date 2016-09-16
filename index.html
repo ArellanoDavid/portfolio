@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restaurante</title>
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/drumPad.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/toDoapp.css">
+
+</head>
+<body>
+	<!-- Some Stuff -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">David Arellano's Portfolio</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="bootcamp1.html">Bootcamp 1</a></li>
+	        <li><a href="restaurante.html">Restaurante</a></li>
+			  </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<!-- Navbar Ends -->
+
+
+	<!-- Cauresel Begins -->
+	<div class="container-fluid">
+
+	  <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+		 <!-- Indicators -->
+		 <ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		 </ol>
+
+		 <!-- Wrapper for slides -->
+		 <div class="carousel-inner">
+			<div class="item active">
+			  <img src="https://i.ytimg.com/vi/UEYp1RTvllM/maxresdefault.jpg" alt="Overwatch Pic" width="100%" height:"100%">
+			  <div class="carousel-caption">
+				 <h2>Overwatch</h2>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="https://a2ua.com/airsoft/airsoft-008.jpg" alt="Airsoft">
+			  <div class="carousel-caption">
+				 <h2>Airsoft</h2>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="http://memesvault.com/wp-content/uploads/All-Meme-Faces-Wallpaper-03.jpg"  alt="Meme" class="align-center">
+			  <div class="carousel-caption">
+				 <h2>Some Sweet Memes</h2>
+			  </div>
+			</div>
+		 </div>
+
+		 <!-- Contr ols -->
+		 <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		 </a>
+		 <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		 </a>
+	  </div>
+
+	</div>
+	<!-- CAROUSEL ENDS -->
+
+	<!-- DRUMPAD STARTS -->
+
+			<audio id= "aAudio">
+				<source src="sounds/action-kick.wav" type="audio/wav"></source>
+			</audio>
+			<audio id="bAudio">
+				<source src="sounds/hi-hat-open.wav" type="audio/wav"></source>
+			</audio>
+			<audio id= "cAudio">
+				<source src="sounds/mc-snare-4b.wav" type="audio/wav"></source>
+			</audio>
+			<audio id="dAudio">
+				<source src="sounds/new-kick-7.wav" type="audio/wav"></source>
+			</audio>
+			<audio id="eAudio">
+				<source src="sounds/zvnamed-ws.wav" type="audio/wav"></source>
+			</audio>
+			<audio id="fAudio">
+				<source src="sounds/emt-rimshot.wav" type="audio/wav"></source>
+			</audio>
+			<audio id= "gAudio">
+				<source src="sounds/Moombah-Vocal-3.wav" type="audio/wav"></source>
+			</audio>
+
+			<div class="container-fluid">
+				<div id="sound_Box" class="row drumPosition">
+					<h1 class="text-center drumpad-title"> JS Projects</h1>
+						<div id= "a" class= "box"></div>
+						<div id= "b" class= "box"></div>
+						<div id= "c" class= "box"></div>
+						<div id= "d" class= "box"></div>
+						<div id= "e" class= "box"></div>
+						<div id= "f" class= "box"></div>
+						<div id= "g" class= "box"></div>
+				</div>
+			</div>
+	<!-- DRUMPAD ENDS -->
+
+	<!-- TO DO APP STARTS -->
+	<div class="container-fluid">
+		<div class="todo-contain">
+	<div class="to-do-contain">
+		<h1 id="title">To-Do App</h1>
+			<p id="notice" class="hidden">You have no goals for today.</p>
+				<ul id="list">
+					<li id="to_do">Apples
+						<button class="delete">Delete</button></li>
+					<li id="to_do">Grapes
+						<button class="delete">Delete</button></li>
+					<li id="to_do">Oranges
+						<button class="delete">Delete</button></li>
+				</ul>
+
+				<textarea id="task-input" name="description" rows="1" placeholder="Input to List"></textarea>
+
+				<button id="add">Enter</button>
+				</div>
+				</div>
+	</div>
+
+	<!-- TO DO APP ENDS -->
+
+
+	<!-- CONTACT SECTION -->
+	<div class="container-fluid" id="contact_background">
+		<!-- <div class="container"> -->
+			<!-- <div class="row"></div> -->
+			<!-- <div class="row"> -->
+				  <form id="contact" action="" method="post" class="col-md-6">
+				    <h3>Contact Form</h3>
+				    <fieldset>
+				      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+				    </fieldset>
+				    <fieldset>
+				      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+				    </fieldset>
+				    <fieldset>
+				      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+				    </fieldset>
+				    <fieldset>
+				      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+				    </fieldset>
+				    <fieldset>
+				      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+				    </fieldset>
+				    <fieldset>
+				      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+				    </fieldset>
+				    <!-- <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p> -->
+				  </form>
+					<iframe class="col-md-6" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12790.416957247213!2d-119.785777!3d36.732065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1473983227101" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<!-- </div> -->
+		<!-- </div> -->
+	</div>
+
+	<footer class="container-fluid">
+		<div class="col-md-6 col-md-offset-3">
+			<div class="row">
+				<div class="social">
+			   	 <a href="http://www.facebook.com/dtarellano1" title="" target="_blank"><i class="fa fa-facebook"></i></a>
+			      <a class="hidden-xs"href="http://www.twitter.com/dtarellano" title="" target="_blank"><i class="fa fa-twitter"></i></a>
+			       <a href="http://www.soundcloud.com/dtarellano1" title="" target="_blank"><i class="fa fa-soundcloud"></i></a>
+			       <a href="http://www.github.com/arellanodavid" title="" target="_blank"><i class="fa fa-github"></i></a>
+			      <a class="hidden-xs"href="#" title="" target="_blank"><i class="fa fa-linkedin"></i></a>
+						<p id="footer_p">&copy; 2016 David Arellano. All Right Reserved. | Site by: <a class="name-link" href="http://www.github.com/arellanodavid" target="_blank" title="My Github">David Arellano</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- javascript	 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="../../dist/js/bootstrap.min.js"></script>
+	<script src="js/drumPad.js"></script>
+	<script src="js/toDoapp.js"></script>
+</body>
+</html>

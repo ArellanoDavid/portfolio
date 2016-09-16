@@ -1,0 +1,313 @@
+/*GLOBAL STYLES*/
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700|Droid+Sans);
+
+html, body {
+    height:100%;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color:#212020;
+    background-image: images/tile-black.jpg;
+    font-family:'Trebuchet MS', Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#000000;
+}
+
+h1, h2, h3 {
+    margin:0px;
+    padding:0px;
+    color: #EBA10E;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+p {
+    color: #808080;
+    margin: 15px 0px;
+    line-height: 20px;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+a {
+    color: #EBA10E;
+    text-decoration: none;
+}
+a:hover {
+    color:#F7D434;
+}
+
+figure {
+    padding: 18px;
+    margin: 0px;
+    background-color: #EBA10E;
+    display: inline-block;
+    border-radius: 20px;
+    text-shadow: 5px 5px 5px #000000;
+
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+main {
+    width: 1202px;
+    overflow: hidden;
+    margin: 20px auto;
+}    
+strong, b {
+        color:#EBBE38;
+        font-weight: 1000;
+}
+
+mark {
+    padding: 0px 14px;
+    background-color: lime;
+}
+/* =========== HEADER STYLES ===========*/
+
+header {
+    height: 100px;
+    background-color: #212020;
+}
+
+#logoGraphic {
+    color: #EBA10E;
+}
+#logoGraphic:hover {
+    color:#FF7900;
+}
+
+/*=========== BANNER STYLES===========*/
+
+#banner {
+    overflow:hidden;
+    padding: 175px 0px;
+    border-top: 6px solid #C49918;
+    border-bottom: 6px solid #C49918;
+    background-color: #AEAEAE;
+    background: url(../images/banner-home.jpg) no-repeat center center #FF7900;
+    background-size: cover;
+}
+#bannerText {
+    color:#FFFFFF;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 6px 6px 6px #000000;
+}
+
+/*============= NAVIGATION STYLES ==============*/
+
+#menu {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.currentPage {
+    color: #F7D434;
+}
+
+
+/*========== THREE COLUMNS STYLES ==========*/
+
+.column1, .column2, .column3 {
+    width: 384px;
+}
+
+.column1, .column2 {
+    float: left;
+    margin-right: 24px;
+}
+
+.column3 {
+    float: left;
+}
+
+.column1 h2, .column2 h2, .column3 h2 {
+    font-size: 4.5em;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.column1 p, .column2 p, .column3 p {
+    padding: 0px;
+    text-align: justify;
+}
+
+.column1 span, .column2 span, .column3 span {
+    background-color: #EBA10E;
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.75em;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+
+/*==========BUTTON STYLES============*/
+.button {
+    background-color: #EBA10E;
+    border-radius: 8px;
+    padding: 10px 25px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    display:block; width:100px; margin:0px auto;
+    
+    
+}
+
+/*=========ABOUT ME SECTION==========*/
+
+.leftAside {
+    float: left;
+    width: 384px;
+    margin-right: 24px;
+}
+
+.rightAside {
+    float: right;
+    width: 384px;
+    margin-left: 24px;
+}
+
+.aboutMe {
+    float: right;
+    width: 754px;
+}
+
+.aboutMe p {
+    text-align: justify;
+}
+
+.blogPost {
+    display: inline-block;
+}
+
+/*==========FOOTER STYLES==========*/
+footer {
+    height: 125px;
+    padding: 30px 0px;
+    border-top: dotted 4px #EBBE38;
+    text-align: center;
+    background-color: #212020;
+}
+
+footer p {
+    color: #EBBE38;
+}
+
+
+
+/*=========SOCIAL STYLES===========*/
+
+.social a {
+    color: #FFFFFF;
+    
+}
+
+.fa {
+    background-color: rgb(141,198,63);
+    border: solid 3px #A68319;
+    font-size: 2em !important;
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    padding: 12px;
+    margin: 0px 15px;
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-twitter {
+    background-color: #00aced;
+}
+
+.fa-soundcloud {
+    background-color: #ff3a00;
+
+}
+
+.fa-github {
+    background-color: #000000;
+}
+
+.fa-linkedin {
+    background-color: #007bb6;
+}
+
+img {
+    border-radius: 18px;
+    border: solid 1px #EBA10E;
+}
+
+/*================= MISC STYLES =================*/
+
+#youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0px;
+    overflow: hidden;
+}
+
+#youtube iframe, #youtube embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 99%;
+}
+
+.maps {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    border: 1px solid #EBA10E;
+}
+
+#wufoo-mvjtihr1prhm53{
+    background-color: #FFFFFF;
+    border: solid 3px #EBA10E;
+    border-radius: 8px;
+    width: 90%;
+    margin: 25px auto;
+    padding: 20px;
+    
+    
+}
+/*
+1200px
+384px x 3 = 1152px
+24px x 2 = 48px
+
+total 1200px
+*/
+
+/*
+=============================
+16x9 9/16 = .5625 (56.25%)
+youtube padding aspect ratio
+=============================
+*/

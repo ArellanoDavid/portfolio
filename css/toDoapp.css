@@ -1,0 +1,161 @@
+/*body {
+	font-family: "lucida grande", sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #666;
+	padding: 0;
+	margin: 0;
+	background-color: #262626;
+}*/
+
+button {
+	color: #fff;
+	text-shadow: 0 1px 0
+	border: 1px solid;
+	border-radius: 2px;
+	box-shadow: 0 0 0 1px #fff;
+	padding: 1px 4px 2px 4px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+	cursor: pointer;
+}
+
+.to-do-contain {
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	margin-left: 322px;
+	margin: auto;
+}
+
+
+@media screen and (min-width: 760px) {
+	.to-do-contain {
+		width: 50%;
+	}
+}
+
+#title {
+	margin: 0;
+	padding: 10px 15px;
+	background-color: #434343;
+	border-bottom: 1px solid #575757;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.hidden {
+	display: none;
+}
+#notice {
+	padding: 10px;
+	margin: 15px;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;;
+	counter-reset:li;
+}
+
+#to_do {
+	padding: 10px 15px 10px 40px;
+	border-bottom: 1px solid #ddd;
+
+	position: relative;
+}
+
+.to-do:before {
+	content:counter(li);
+	counter-increment:li;
+
+	position:absolute;
+	top: 0;
+	left: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+
+	background: #f2f2f2;
+	border-right: 1px solid #ddd;
+
+	margin: 0;
+	padding:10px;
+
+	font-size: 11px;
+	height: 100%;
+	color:#999;
+	text-align: center;
+}
+
+.delete {
+	background-color: black;
+	margin: 0;
+
+	position: absolute;
+	right: 15px;
+	top:32%;
+
+	opacity: 0;
+	-webkit-transition: opacity linear .1s;
+	-moz-transition: opacity linear .1s;
+	transition: opacity linear .1s;
+}
+
+li:hover .delete {
+	opacity: 1;
+}
+
+textarea {
+	display: block;
+	overflow: auto;
+   vertical-align: top;
+	border: 1px solid;
+	border-radius: 2px;
+	box-shadow: 0 1px 0
+	margin: 15px 15px 10px 15px;
+	margin: auto;
+	padding: 10px;
+	font-size: 13px;
+	display: -webkit-inline-box;
+}
+textarea:focus {
+	outline: none;
+	box-shadow: 0 1px 1px
+}
+
+#add {
+	background: #8e8f8d;
+	margin: 0 15px 15px 15px;
+}
+
+span {
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+
+a {
+	color: #bbb;
+	text-decoration: none;
+}
+a:hover {
+	color: #555;
+}
+
+
+
+h1 {
+		margin: -1px -1px 0 -1px;
+		border: 1px solid #ffd700;
+}
+
+textarea {
+		/*width: 348px;*/
+}

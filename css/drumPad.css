@@ -1,0 +1,121 @@
+
+#sound_Box {
+   height:116px;
+   width: 812px;
+   padding-right: 10px;
+   padding-top: 50px;
+   margin:auto;
+   display: block;
+   width: 100%;
+   height: auto;
+   background-color: rgba(32, 32, 32, .5);
+
+ /*position: absolute;*/
+ /*top:0; left:0; right:0; bottom:0;*/
+}
+.box {
+ height:100px;
+ width: 100px;
+ margin-left: 66px;
+ margin-top: 10px;
+ margin-bottom: 50px;
+ display:inline-flex;
+ padding-right: 10px;
+
+}
+#c {
+   background-color: rgba(34, 34, 34, .7);
+   border: 3px solid #454547;
+}
+
+#d {
+   background-color: rgba(34, 34, 34, .7);
+   border: 3px solid #454547;
+}
+
+#e {
+   background-color: rgba(34, 34, 34, .7);
+   border: 3px solid #454547;
+}
+
+#f {
+   background-color: rgba(34, 34, 34, .7);
+   border: 3px solid #454547;
+}
+
+#g {
+   background-color: rgba(34, 34, 34, .7);
+   border: 3px solid #454547;
+}
+
+#a {
+   background-color: rgba(34, 34, 34, .7);
+   border: 3px solid #454547;
+}
+
+#b {
+   background-color: rgba(34, 34, 34, .7);
+   border: 3px solid #454547;
+}
+
+#h {
+   background-color: #3e181b;
+   /*border: 3px solid #00ff00;*/
+}
+#a:hover {
+   background-color:rgba(34, 34, 34, .9);
+   cursor: pointer;
+}
+#b:hover {
+   background-color:rgba(34, 34, 34, .9);
+   cursor: pointer;
+}
+#c:hover {
+   background-color:rgba(34, 34, 34, .9);
+   cursor: pointer;
+}
+#d:hover {
+   background-color:rgba(34, 34, 34, .9);
+   cursor: pointer;
+}
+#e:hover {
+   background-color:rgba(34, 34, 34, .9);
+   cursor: pointer;
+}
+#f:hover {
+   background-color:rgba(34, 34, 34, .9);
+   cursor: pointer;
+}
+#g:hover {
+   background-color:rgba(34, 34, 34, .9);
+   cursor: pointer;
+}
+#h:hover {
+   background-color:rgba(34, 34, 34, .9);
+   cursor: pointer;
+}
+
+#a:active {
+   background-color:#000000;
+}
+#b:active {
+   background-color:#000000;
+}
+#c:active {
+   background-color:#000000;
+}
+#d:active {
+   background-color:#000000;
+}
+#e:active {
+   background-color:#000000;
+}
+#f:active {
+   background-color:#000000;
+}
+#g:active {
+   background-color:#000000;
+}
+#h:active {
+   background-color:#000000;
+}
